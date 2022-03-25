@@ -120,6 +120,7 @@ body {
   height: 580px;
   bottom: 0;
   right: 0;
+  margin-right: 320px;
 }
 
 .main_content__button {
@@ -176,7 +177,7 @@ body {
   margin-left: 20px;
 }
 
-.main_content__video a {
+.main_content__link a {
   color: #6D6D78;
   font-family: "Rubik-Light.ttf";
   font-style: normal;
@@ -200,5 +201,10 @@ body {
   justify-content: space-between;
 }
 .sponsor_wrapper__logo {
-  margin: 80px auto 40px auto;
+  width: 120px;
+  height: 25px;
+}
+.sponsor_wrapper__logo img {
+  padding-left: 230px;
+  padding-right: 230px;
 }
