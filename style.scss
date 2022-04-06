@@ -27,6 +27,7 @@ body {
 /*main_wrapper*/
 
 .main_wrapper {
+    width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,7 +40,7 @@ body {
 /*main_header*/
 
 .main_header {
-    width: 1100px;
+    width: 1400px;
 }
 
 /*navigation*/
@@ -167,7 +168,7 @@ body {
 }
 
 .main_header__content___btn,
-.increase_traffic__wrapper___btn {
+.increase_traffic__wrapper___btn, .new_project__content___btn {
     width: 157px;
     height: 46px;
     padding: 10px 0px;
@@ -365,20 +366,18 @@ body {
 /*main_content__traffic*/
 
 .increase_traffic {
+    width: 470px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-image: url(../src/img/main_content/increase_traffic/increase-your-traffic-background.svg);
-    background-repeat: no-repeat;
     margin-top: 217px;
 
     &__wrapper {
         width: 470px;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+        padding-left: 43px;
 
         &___title {
             width: 470px;
@@ -406,10 +405,12 @@ body {
 
         &___img {
             position: absolute;
+            width: 440px;
+            height: 400px;
             right: 0;
-            top: 0;
-            margin-right: 400px;
-            margin-top: 1600px;
+            margin-right: 200px;
+            background-image: url(../src/img/main_content/increase_traffic/increase-your-traffic-img.png);
+
         }
     }
 }
@@ -417,22 +418,17 @@ body {
 /*main_content__simple ways*/
 
 .simple_ways {
-    // width: 1090px;
-    height: 322px;
     margin-top: 150px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+
 
     &__save {
         width: 864px;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
 
         &___title {
             font-family: 'Inter-Bold.ttf';
@@ -451,7 +447,6 @@ body {
 
         &___subtitle {
             width: 414px;
-            height: 40px;
             font-family: 'gilroy-semibold.ttf';
             font-size: 15px;
             line-height: 20px;
@@ -464,7 +459,6 @@ body {
         &___articles {
             height: 322px;
             display: flex;
-            flex-direction: row;
             align-items: center;
         }
     }
@@ -495,5 +489,41 @@ body {
         text-align: center;
         letter-spacing: 0.2px;
         color: #8476AA;
+    }
+}
+
+/*New project*/
+
+.new_project__wrapper {
+    width: 770px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.new_project__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &___title {
+        font-family: 'Inter-Bold.ttf';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        text-align: center;
+        color: #99EFD0;
+
+        & span {
+            color: #f2994a;
+        }
+    }
+
+    button {
+        margin-top: 46px;
     }
 }
