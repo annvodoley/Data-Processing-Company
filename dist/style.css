@@ -703,3 +703,120 @@ body {
   color: #8476AA;
   padding-top: 16px;
 }
+
+/*Footer*/
+.main_footer__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../src/img/footer/footer-background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main_footer {
+  width: 992px;
+  height: 437px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.main_footer__top-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_footer__top-section___title {
+  width: 480px;
+  height: 32px;
+  font-family: "Inter-Bold.ttf";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.325px;
+  color: #F2994A;
+}
+.main_footer__top-section___icons {
+  width: 152px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_footer__top-section___icons____img {
+  background-color: #1e2047;
+  border-radius: 50%;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.nav_footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 984px;
+}
+
+.nav_footer {
+  margin-bottom: 50px;
+}
+.nav_footer ul {
+  margin-top: 94px;
+  list-style-type: none;
+}
+.nav_footer ul li {
+  margin-bottom: 10px;
+}
+
+.nav_footer__title {
+  font-family: "Inter-Bold.ttf";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.nav_footer__item {
+  text-decoration: none;
+  font-family: "Inter-Bold.ttf";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.footer_copy__section {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_copy__section___item {
+  text-decoration: none;
+  font-family: "Inter-Bold.ttf";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #8D8D8D;
+}
